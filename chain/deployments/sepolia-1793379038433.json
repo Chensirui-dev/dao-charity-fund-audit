@@ -1,0 +1,22 @@
+{
+  "network": "sepolia",
+  "chainId": 11155111,
+  "rpcUrl": "https://sepolia.gateway.tenderly.co",
+  "deployer": "0x8709927966E3015d5A0f19eAdEa3C2831cB03c0a",
+  "demoVotingPeriodSeconds": 120,
+  "demoTimelockSeconds": 45,
+  "quorumBps": 2500,
+  "votingPowerPerMember": 100,
+  "daoMembers": [
+    "0x8709927966E3015d5A0f19eAdEa3C2831cB03c0a",
+    "0xaB4d525cDCBc88e4a7d2aA036d53a0f874f0a9D3",
+    "0x8e72CB2A7d0bF2D45B3Ed7A1c07D46313753985D",
+    "0xAF899A8a4e8CAbB5e803F12C96868a163f67D1E6"
+  ],
+  "contracts": {
+    "auditRegistry": "0x1b5a857d293DE919a20613FEA974fD6371BD13a3",
+    "donationVault": "0x478fd8420F4cb8868b8F017C6b2cc1b0b5f87E48",
+    "daoGovernor": "0x10eE6CEF9B572d3D4dC36C8f91aA84ee14B2CC6c"
+  },
+  "deployedAt": "2026-10-30T16:50:38.433Z"
+}

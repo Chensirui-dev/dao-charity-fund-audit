@@ -1,0 +1,24 @@
+{
+  "name": "dao-charity-audit-chain",
+  "version": "1.0.0",
+  "private": true,
+  "description": "公益资金审计系统智能合约工程（solc + ethers 工具链，运行链为 Sepolia 公共测试网）",
+  "scripts": {
+    "check": "node scripts/check.js",
+    "compile": "node scripts/compile.js",
+    "deploy:sepolia": "node scripts/compile.js && node scripts/deploy.js",
+    "accounts": "node scripts/accounts.js",
+    "fund": "node scripts/fund.js",
+    "test": "node test/contracts.test.js",
+    "demo": "node scripts/demo-proposal.js",
+    "seed": "node scripts/seed-campaigns.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.4",
+    "solc": "0.8.24"
+  },
+  "devDependencies": {
+    "ganache": "^7.9.2"
+  }
+}

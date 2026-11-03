@@ -1,0 +1,35 @@
+# ===== 依赖 =====
+node_modules/
+chain/node_modules/
+
+# ===== 构建产物 =====
+dist/
+build/
+.vite/
+.tmp/
+coverage/
+
+# ===== 环境变量与密钥（绝不提交） =====
+.env
+.env.local
+.env.*.local
+chain/.env
+chain/deployments/artifacts.json
+
+# ===== 内部文档与本地产物（不公开） =====
+README.答辩辅助版.md
+录屏脚本.md
+录屏脚本-简洁版.md
+outputs/
+work/
+
+# ===== AI 工具与本地工作区 =====
+.workbuddy/
+.agents/
+.codex/
+
+# ===== 系统与编辑器 =====
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
